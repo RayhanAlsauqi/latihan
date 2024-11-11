@@ -32,7 +32,6 @@ export default function ProductsList() {
     router.push("/login")
   }
 
-  if (isLoading) return <div>Loading...</div>
   if (isError) return <div>Error: {isError.message}</div>
 
   return (
