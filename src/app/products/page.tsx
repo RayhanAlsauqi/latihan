@@ -9,7 +9,6 @@ export default function ProductsList() {
   const { logout, user } = useAuthContext()
   const {
     products,
-    isLoading,
     isError,
     setCategoryFilter,
     selectedCategory,
